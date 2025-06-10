@@ -8,3 +8,8 @@ function greetUser(name) {
 
 let userName = "Hari";
 greetUser(userName);
+
+function changeText() {
+  let heading = document.getElementById("welcome");
+  heading.textContent = "You clicked the button! 🎉";
+}

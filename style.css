@@ -28,3 +28,18 @@ nav a {
   text-decoration: none;
   color: #333;
   f
+/* Make nav links stack on smaller screens */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header, nav, main, footer {
+    padding: 10px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
